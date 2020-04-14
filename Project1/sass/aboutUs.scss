@@ -1,0 +1,42 @@
+$whiteColor: #ffffff;
+$blackColor: #3c3c3c;
+
+
+.aboutUs {
+    min-height: 500px;
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+
+
+.aboutUsItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 6rem;
+    width: 40%;
+    color: $blackColor;
+    text-align: center;
+    border: 0.25rem solid black;
+}
+
+.aboutUsTitle { 
+    margin-top: -4.75rem;
+    padding: 1.25rem 2.25rem;
+    width: 60%;
+    font-size: 2.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $whiteColor;
+}
+
+.aboutUsSubTitle {
+    font-weight: 300;
+    padding-top: 3rem;
+}

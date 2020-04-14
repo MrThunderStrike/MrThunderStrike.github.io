@@ -1,0 +1,56 @@
+$whiteColor: #ffffff;
+$blackColor: #3c3c3c;
+
+.contactUs {
+    padding-top: 4rem;
+    min-height: 500px;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #abb6ca;
+}
+
+.contactUsItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 6rem;
+    width: 40%;
+    color: $whiteColor;
+    text-align: center;
+    border: 0.25rem solid black;
+}
+
+.contactUsTitle {  
+    margin-top: -5rem;
+    padding: 1.25rem 2.25rem;
+    width: 65%;
+    font-size: 2.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #abb6ca;
+}
+
+.contactUsSubTitle {
+    padding: 3rem 0;
+}
+
+.contactUsButton {
+    color: $whiteColor;
+    padding: 1.5rem 10rem;
+    font-family: "Lato";
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $blackColor;
+    outline: 0;
+    cursor: pointer;
+    border: 0;
+}
+
+.contactUsButton:hover {
+    background-color: black;
+}
