@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleStyleTest.css">
+    <title>Document</title>
+    <link href="fonts/css/all.css" rel="stylesheet">
+</head>
+<body id="mainWindow">
+    <div class="btnChangeModeBlock">
+        <div class="btnChangeMode" id="btnChangeMode">
+            <i class="fas fa-lightbulb" id="lightbulb"></i>
+        </div>
+    </div>
+    <div class="container">
+        <div class="leftSide">
+            <div class="imgContainer" id="imgContainer">
+                 <img class="image" src="img/3.jpg" alt="">
+                <div class="nameBlock" id="nameBlock">
+                    <p>Bogdan Gromovoy</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="rightSide">
+            <div class="blocksContainer">
+                <div class="headerBlock">
+                    <div class="headerHeadline" id="headerHeadline">
+                        <p id="headerText">What do you want to know about me?</p>
+                    </div>
+                </div>
+
+                <div class="mainBlock">
+                    <div class="block" id="myselfBtn">
+                        <p>A few details about myself</p>
+                    </div>
+
+                    <div class="block" id="moviesBtn">
+                        <p>My list of good movies and TV shows</p>
+                    </div>
+
+                    <div class="block" id="programmingBtn">
+                        <p>A few points about programming</p>
+                    </div>
+
+                    <div class="block" id="hobbiesBtn">
+                        <p>My hobbies</p>
+                    </div>
+
+                    <div class="modal" id="modal">
+                        <div class="modalContentForMyself fontSettings" id="modalContentForMyself">
+                            <span class="closeBtn" id="closeBtnMyself">&times;</span>
+                            <p class="modalHeader" id="modalMyselfHeader">A few details about myself:</p>
+                            <hr>
+                            <p>
+                                <span class="startP">Education:</span> 2017-2020, National Technical University "Kharkiv Polytechnic Insitute",
+                                Department of Computer Modeling of Processes and Systems,
+                                3 year student.
+                            </p>
+                            <p>
+                                <span class="startP">Personal qualities:</span> attentiveness, cheerful character,
+                                responsibility, technical thinking, poise, concentration, 
+                                a high degree of self-organization, discipline, 
+                                focus on achieving results, willingness to learn new things.
+                            </p>
+                        </div>
+
+                        <div class="modalContentForMovies" id="modalContentForMovies">
+                            <span class="closeBtn" id="closeBtnMovies">&times;</span>
+                            <p class="modalHeader" id="modalMoviesHeader">My list of good movies and TV shows:</p>
+                            <hr>
+                            <div class="slider">
+                                <div class="images" id="imgSliderContainer">
+                                    <img class="showImg" src="imgSlider/theGentlemen1.jpg" alt="">
+                                    <img class="" src="imgSlider/johnWick.jpg" alt="">
+                                    <img class="" src="imgSlider/theMatrix.jpg" alt="">
+                                    <img class="" src="imgSlider/lockStock.jpg" alt="">
+                                    <img class="" src="imgSlider/greenBook.jpg" alt="">
+                                    <img class="" src="imgSlider/hannibal.jpg" alt="">
+                                    <img class="" src="imgSlider/kingArthur.jpg" alt="">
+                                    <img class="" src="imgSlider/LDR.jpg" alt="">
+                                    <img class="" src="imgSlider/pretoria.jpg" alt="">
+                                    <img class="" src="imgSlider/rickMorty.jpg" alt="">
+                                    <img class="" src="imgSlider/sevenPounds.jpg" alt="">
+                                    <img class="" src="imgSlider/topGear.jpg" alt="">
+                                    <img class="" src="imgSlider/fordvsferrari.jpg" alt="">
+                                    <img class="" src="imgSlider/alteredCarbon.jpg" alt="">
+                                    <div class="buttons">
+                                        <input type="button" value="&#10094" class="prevBtn">
+                                        <input type="button" value="&#10095" class="nextBtn">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modalContentForProgramming" id="modalContentForProgramming">
+                            <span class="closeBtn" id="closeBtnProgramming">&times;</span>
+                            <p class="modalHeader" id="modalProgrammingHeader">A few points about programming:</p>
+                            <hr>
+                            <div class="knowledgeScale">
+                                <p> <span class="blueZone"> A -> </span> I know</p>
+                                <p> <span class="greenZone">B -> </span> I have experience with</p>
+                                <p> <span class="yellowZone">C -> </span> Have an understanding</p>
+                                <p> <span class="orangeZone">D -> </span>I know at the level of theory, 
+                                    but I’m learning fast and can improve my knowledge in this field in a short time
+                                </p>
+                            </div>
+                            <hr>
+                            <p class="blueZone">  HTML, CSS(FlexBox, Grid), JS(ES5, ES6)</p>
+                            <hr>
+                            <p class="greenZone"> Bootstrap, Gulp, SASS</p>
+                            <hr>
+                            <p class="yellowZone"> JQuery, Photoshop</p>
+                            <hr>
+                            <p class="orangeZone"> WordPress, Drupal, PHP</p>
+                            <hr>
+                        </div>
+
+                        <div class="modalContentForHobbies" id="modalContentForHobbies">
+                            <span class="closeBtn" id="closeBtnHobbies">&times;</span>
+                            <p class="modalHeader" id="modalHobbiesHeader">My hobbies:</p>
+                            <hr>
+                            <p>Like to play the guitar,
+                                watch and evaluate movies and TV shows, 
+                                learn something new, read books, 
+                                play sports, discuss
+                                interesting topics and much much more ...
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
